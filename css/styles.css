@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* custom properties - easy to change some props */
+:root {
+    --primary-color: #fcf5e9;
+    --container-normal: 1100px;
+    --container-wide: 1400px;
+    --container-narrow: 900px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
@@ -25,23 +33,23 @@ img {
 
 /* utility classes - can be used everywhere */
 .bg-prim {
-    background-color: #fcf5e9;
+    background-color: var(--primary-color);
 }
 
 .container-lg {
-    max-width: 1400px;
+    max-width: var(--container-wide);
     margin: 0 auto;
     padding: 0 1.5rem;
 }
 
 .container-sm {
-    max-width: 900px;
+    max-width: var(--container-narrow);
 }
 
 /* --------------------- HEADER -------------------- */
 /* container - make it responsive*/
 .container {
-    max-width: 1100px;
+    max-width: var(--container-normal);
 
 
     margin: 0 auto;
@@ -65,7 +73,6 @@ img {
 /* navigation bar */
 .main-menu {
     display: flex;
-    justify-content: flex-end;
     gap: 1rem;
 
     a {
@@ -73,11 +80,11 @@ img {
     }
 
     a:hover {
-        background-color: #fcf5e9;
+        background-color: var(--primary-color);
     }
 
     .current {
-        background-color: #fcf5e9;
+        background-color: var(--primary-color);
         font-weight: 700;
     }
 }
