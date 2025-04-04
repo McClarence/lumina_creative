@@ -43,6 +43,10 @@ img {
     color: #fff;
 }
 
+.bg-dark .bg-prim {
+    padding: 0 0.3rem;
+}
+
 .section-heading {
     font-size: 1.6rem;
     text-align: center;
