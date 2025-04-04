@@ -36,6 +36,12 @@ img {
     background-color: var(--primary-color);
 }
 
+.section-heading {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .container-lg {
     max-width: var(--container-wide);
     margin: 0 auto;
@@ -155,6 +161,23 @@ img {
 
 .footer a {
     margin: 0.rem;
+}
+
+/* --------- SERVICES ------------ */
+.services {
+    background: #333;
+    color: #fff;
+    padding: 3rem 0 4rem;
+}
+
+.services-flex {
+    display: flex;
+    gap: 2rem;
+}
+
+.service-item {
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
 }
 
 /* ----- media queries -------*/
