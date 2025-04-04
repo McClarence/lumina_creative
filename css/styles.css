@@ -128,7 +128,34 @@ img {
 }
 
 
+/* ---------- FOOTER ------------- */
+.footer {
+    border-top: 1px solid #aaa;
+    padding: 2rem 1.5rem;
+    margin-top: 2rem;
 
+}
+
+.footer .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer img {
+    width: 120px;
+    height: 35px;
+}
+
+.footer h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    margin: 0.rem;
+}
 
 /* ----- media queries -------*/
 @media (max-width: 768px) {
