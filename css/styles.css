@@ -8,6 +8,7 @@
 /* custom properties - easy to change some props */
 :root {
     --primary-color: #fcf5e9;
+    --dark-color: #333;
     --container-normal: 1100px;
     --container-wide: 1400px;
     --container-narrow: 900px;
@@ -34,6 +35,12 @@ img {
 /* utility classes - can be used everywhere */
 .bg-prim {
     background-color: var(--primary-color);
+    color: #333;
+}
+
+.bg-dark {
+    background: var(--dark-color);
+    color: #fff;
 }
 
 .section-heading {
@@ -165,8 +172,6 @@ img {
 
 /* --------- SERVICES ------------ */
 .services {
-    background: #333;
-    color: #fff;
     padding: 3rem 0 4rem;
 }
 
